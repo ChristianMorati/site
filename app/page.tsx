@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PromotionLink from "./_components/Promotions";
 
 export default function Home() {
   return (
@@ -62,6 +63,8 @@ export default function Home() {
           >
             Documentation
           </a>
+
+          <PromotionLink />
         </div>
       </main>
     </div>
